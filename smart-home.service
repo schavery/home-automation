@@ -1,0 +1,14 @@
+[Unit]
+Description=Smart Home Control Web Interface
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/smart-home
+ExecStart=/usr/bin/python3 /root/smart-home/web.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

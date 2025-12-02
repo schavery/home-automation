@@ -8,7 +8,8 @@ LOCATION = LocationInfo("Portland", "USA", "America/Los_Angeles", 45.5152, -122.
 
 # Plug configuration
 PLUGS = [
-    {"name": "Evening Lamp", "ip": "10.0.0.13", "id": "plug1"}
+    {"name": "Evening Lamp", "ip": "10.0.0.13", "id": "plug1"},
+    {"name": "Curtain Lights", "ip": "10.0.0.28", "id": "plug2"}
 ]
 
 # Schedule settings
